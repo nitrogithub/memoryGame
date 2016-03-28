@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CardImageView : UIImageView
-
+-(instancetype)initWithCoder:(NSCoder *)aDecoder;
 @end

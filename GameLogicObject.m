@@ -10,4 +10,8 @@
 
 @implementation GameLogicObject
 
+
+
+
+
 @end

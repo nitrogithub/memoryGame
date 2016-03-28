@@ -20,16 +20,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AcP-q4-607">
                                 <rect key="frame" x="150" y="46" width="300" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="87y-5L-anQ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="87y-5L-anQ" customClass="CardImageView">
                                         <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="rhk-C1-o5S">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="rhk-C1-o5S" customClass="CardImageView">
                                         <rect key="frame" x="75" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="hyz-xZ-4Ox">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="hyz-xZ-4Ox" customClass="CardImageView">
                                         <rect key="frame" x="150" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="r56-Vq-Uzw">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="r56-Vq-Uzw" customClass="CardImageView">
                                         <rect key="frame" x="225" y="0.0" width="75" height="120"/>
                                     </imageView>
                                 </subviews>
@@ -41,16 +41,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0rN-dC-rst">
                                 <rect key="frame" x="150" y="174" width="300" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="5TJ-55-5Zg">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="5TJ-55-5Zg" customClass="CardImageView">
                                         <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="4R8-35-Lq1">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="4R8-35-Lq1" customClass="CardImageView">
                                         <rect key="frame" x="75" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="R0z-mO-p98">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="R0z-mO-p98" customClass="CardImageView">
                                         <rect key="frame" x="150" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="bSL-Zi-5Hz">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="bSL-Zi-5Hz" customClass="CardImageView">
                                         <rect key="frame" x="225" y="0.0" width="75" height="120"/>
                                     </imageView>
                                 </subviews>
@@ -62,16 +62,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sFU-Rh-Zvo">
                                 <rect key="frame" x="150" y="302" width="300" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="G8d-yI-EIu">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="G8d-yI-EIu" customClass="CardImageView">
                                         <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="ZOE-dT-LWX">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="ZOE-dT-LWX" customClass="CardImageView">
                                         <rect key="frame" x="75" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="u4h-OC-oHK">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="u4h-OC-oHK" customClass="CardImageView">
                                         <rect key="frame" x="150" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="xJ4-oA-2f4">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="xJ4-oA-2f4" customClass="CardImageView">
                                         <rect key="frame" x="225" y="0.0" width="75" height="120"/>
                                     </imageView>
                                 </subviews>
@@ -83,16 +83,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Wnh-UF-SIJ">
                                 <rect key="frame" x="150" y="430" width="300" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="zih-pp-c7S">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="zih-pp-c7S" customClass="CardImageView">
                                         <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-xF-r2N">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-xF-r2N" customClass="CardImageView">
                                         <rect key="frame" x="75" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="Htn-xq-xC8">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="Htn-xq-xC8" customClass="CardImageView">
                                         <rect key="frame" x="150" y="0.0" width="75" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="GNf-PA-jXn">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="GNf-PA-jXn" customClass="CardImageView">
                                         <rect key="frame" x="225" y="0.0" width="75" height="120"/>
                                     </imageView>
                                 </subviews>
@@ -119,7 +119,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView1" destination="87y-5L-anQ" id="Zye-GV-u5t"/>
+                        <outlet property="imageView1" destination="87y-5L-anQ" id="qb4-pR-edG"/>
                         <outlet property="imageView10" destination="ZOE-dT-LWX" id="Vmt-Af-71t"/>
                         <outlet property="imageView11" destination="u4h-OC-oHK" id="Lb3-i3-neP"/>
                         <outlet property="imageView12" destination="xJ4-oA-2f4" id="6zW-x0-xNX"/>
@@ -127,7 +127,7 @@
                         <outlet property="imageView14" destination="9cd-xF-r2N" id="Adh-9I-dhB"/>
                         <outlet property="imageView15" destination="Htn-xq-xC8" id="ppu-yg-ZIX"/>
                         <outlet property="imageView16" destination="GNf-PA-jXn" id="MEr-Ip-lg3"/>
-                        <outlet property="imageView2" destination="rhk-C1-o5S" id="kg1-Az-R6d"/>
+                        <outlet property="imageView2" destination="rhk-C1-o5S" id="aNB-2O-Bpx"/>
                         <outlet property="imageView3" destination="hyz-xZ-4Ox" id="nAY-6m-suC"/>
                         <outlet property="imageView4" destination="r56-Vq-Uzw" id="D4b-Jg-RoD"/>
                         <outlet property="imageView5" destination="5TJ-55-5Zg" id="2km-Tg-iHi"/>

@@ -8,6 +8,11 @@
 
 #import "CardImageView.h"
 
+@interface CardImageView () <UIGestureRecognizerDelegate>
+
+
+@end
+
 @implementation CardImageView
 
 /*
@@ -18,9 +23,37 @@
 }
 */
 
-//When TOUCHED:
-//flip the card and make it stay
-//send the card result to the mainVC
+
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    if(self){
+        self =[super initWithCoder:aDecoder];
+        self.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tappedGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+        self.gestureRecognizers = @[tappedGesture];
+        for (UIGestureRecognizer *recognizer in self.gestureRecognizers) {
+            recognizer.delegate = self;
+        }
+    }
+    return self;
+}
+
+
+
+-(void)handleTap:(UIGestureRecognizer *)gestureRecognizer {
+    if (gestureRecognizer.state == UIGestureRecognizerStateRecognized ||
+        gestureRecognizer.state == UIGestureRecognizerStateBegan ) {
+        [self flipCard];
+    }
+}
+
+
+-(void) flipCard {
+    //flip the card and make it stay
+    //send the card result back to the mainVC
+    self.image = [UIImage imageNamed:@"black_joker"];
+}
+
 
 
 //VC -> hide the card
