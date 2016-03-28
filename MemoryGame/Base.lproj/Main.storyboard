@@ -104,6 +104,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7c-F4-TY3">
                                 <rect key="frame" x="268" y="558" width="65" height="30"/>
                                 <state key="normal" title="Reshuffle"/>
+                                <connections>
+                                    <action selector="reshuffleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TSl-5r-dBG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -115,6 +118,24 @@
                             <constraint firstItem="sFU-Rh-Zvo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tIP-gR-Wyi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView1" destination="87y-5L-anQ" id="Zye-GV-u5t"/>
+                        <outlet property="imageView10" destination="ZOE-dT-LWX" id="Vmt-Af-71t"/>
+                        <outlet property="imageView11" destination="u4h-OC-oHK" id="Lb3-i3-neP"/>
+                        <outlet property="imageView12" destination="xJ4-oA-2f4" id="6zW-x0-xNX"/>
+                        <outlet property="imageView13" destination="zih-pp-c7S" id="kTa-md-ufk"/>
+                        <outlet property="imageView14" destination="9cd-xF-r2N" id="Adh-9I-dhB"/>
+                        <outlet property="imageView15" destination="Htn-xq-xC8" id="ppu-yg-ZIX"/>
+                        <outlet property="imageView16" destination="GNf-PA-jXn" id="MEr-Ip-lg3"/>
+                        <outlet property="imageView2" destination="rhk-C1-o5S" id="kg1-Az-R6d"/>
+                        <outlet property="imageView3" destination="hyz-xZ-4Ox" id="nAY-6m-suC"/>
+                        <outlet property="imageView4" destination="r56-Vq-Uzw" id="D4b-Jg-RoD"/>
+                        <outlet property="imageView5" destination="5TJ-55-5Zg" id="2km-Tg-iHi"/>
+                        <outlet property="imageView6" destination="4R8-35-Lq1" id="cHC-Zp-DRj"/>
+                        <outlet property="imageView7" destination="R0z-mO-p98" id="iIZ-Ep-gqJ"/>
+                        <outlet property="imageView8" destination="bSL-Zi-5Hz" id="r8E-xB-dgz"/>
+                        <outlet property="imageView9" destination="G8d-yI-EIu" id="Wke-3b-X0W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
