@@ -52,6 +52,7 @@
     //flip the card and make it stay
     //send the card result back to the mainVC
     self.image = [UIImage imageNamed:@"black_joker"];
+    [self.delegate cardNameToMainVC:self.image];
 }
 
 

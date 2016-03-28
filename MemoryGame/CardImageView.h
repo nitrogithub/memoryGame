@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol CardImageViewDelegate
+-(void)cardNameToMainVC:(UIImage *)cardImage;
+
+@end
+
 @interface CardImageView : UIImageView
+@property (nonatomic, assign) id <CardImageViewDelegate> delegate;
 -(instancetype)initWithCoder:(NSCoder *)aDecoder;
 @end
