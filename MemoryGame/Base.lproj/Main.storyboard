@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,115 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AcP-q4-607">
+                                <rect key="frame" x="150" y="46" width="300" height="120"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="87y-5L-anQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="rhk-C1-o5S">
+                                        <rect key="frame" x="75" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="hyz-xZ-4Ox">
+                                        <rect key="frame" x="150" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="r56-Vq-Uzw">
+                                        <rect key="frame" x="225" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="8A4-Pa-gOa"/>
+                                    <constraint firstAttribute="width" constant="300" id="UZz-kb-6c3"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0rN-dC-rst">
+                                <rect key="frame" x="150" y="174" width="300" height="120"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="5TJ-55-5Zg">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="4R8-35-Lq1">
+                                        <rect key="frame" x="75" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="R0z-mO-p98">
+                                        <rect key="frame" x="150" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="bSL-Zi-5Hz">
+                                        <rect key="frame" x="225" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="waH-EM-7nM"/>
+                                    <constraint firstAttribute="height" constant="120" id="yjz-jO-mNm"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sFU-Rh-Zvo">
+                                <rect key="frame" x="150" y="302" width="300" height="120"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="G8d-yI-EIu">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="ZOE-dT-LWX">
+                                        <rect key="frame" x="75" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="u4h-OC-oHK">
+                                        <rect key="frame" x="150" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="xJ4-oA-2f4">
+                                        <rect key="frame" x="225" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="dTv-jg-hbX"/>
+                                    <constraint firstAttribute="width" constant="300" id="jTa-rQ-YeO"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Wnh-UF-SIJ">
+                                <rect key="frame" x="150" y="430" width="300" height="120"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="zih-pp-c7S">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-xF-r2N">
+                                        <rect key="frame" x="75" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="Htn-xq-xC8">
+                                        <rect key="frame" x="150" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jack_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="GNf-PA-jXn">
+                                        <rect key="frame" x="225" y="0.0" width="75" height="120"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="dXG-Y2-qrN"/>
+                                    <constraint firstAttribute="height" constant="120" id="pBj-e4-YZg"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7c-F4-TY3">
+                                <rect key="frame" x="268" y="558" width="65" height="30"/>
+                                <state key="normal" title="Reshuffle"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0rN-dC-rst" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B57-2X-xLu"/>
+                            <constraint firstItem="Wnh-UF-SIJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N3m-Ny-t6H"/>
+                            <constraint firstItem="AcP-q4-607" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aet-mD-kLx"/>
+                            <constraint firstItem="AcP-q4-607" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="e1M-1v-tuh"/>
+                            <constraint firstItem="sFU-Rh-Zvo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tIP-gR-Wyi"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="445" y="474"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="10_of_clubs" width="500" height="726"/>
+        <image name="10_of_spades" width="500" height="726"/>
+        <image name="5_of_hearts" width="500" height="726"/>
+        <image name="jack_of_diamonds" width="500" height="726"/>
+    </resources>
 </document>
